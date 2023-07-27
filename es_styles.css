@@ -1,6 +1,6 @@
 /*FullWidthImage*/
 .fullw_img {
-  max-width: inherit;
+  max-width: inherit!important;
   position: relative;
   width: 100vw;
   max-height: 550px;
@@ -21,7 +21,7 @@
   text-align: center;
   line-height: 30px!important;
   padding: 10px;
-  color: var(--lc);
+  color: var(--lc)!important;
   background-color: var(--bc);
   box-shadow: none;
   width: 180px;
